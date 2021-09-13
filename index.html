@@ -1,114 +1,115 @@
-<!DOCTYPE html>
-<!-- комментарий в HTML -->
-<!-- в первой строке мы сообщаем браузеру,
-  что это документ HTML5 -->
-<html lang="ru">
-  <head>
-    <title>Название страницы</title>
-  </head>
-
-  <body>
-
+<!DOCTYPE html> 
  
-    <ol>ы
-      <li> <a href="http://kubsu.ru"> Абсолютная ссылка</a> </li>
-      <li> <a href="https://kubsu.ru"> Абсолютная ссылка в протоколе https</a> </li>
-      <li> <a href=""> Ссылка на файл на сервере FTP  без авторизации </a> </li>ооооооооооооооооооооооооооооооооооооооооооооооо
-      <li> <a href="ftp://user:password@example.com/myfile.zip"> Ссылка на файл на сервере FTP с авторизацией </a> </li>
-      <li> <a href="http://example.com#0001"> Ссылка на фрагмент  страницы некоторого сайта </a> </li>
-      <li> <a href="#0001"> Ссылка на фрагмент текущей страницы </a> </li>
-      <li><a href="http://example.com?par1=xxxx&par2=yyyy"> Cсылку с двумя параметрами в URL </a></li>
-      <li>Список ссылок основной навигации сайта с подписями title
-        <ul>
-         <li> <a href="https://kubsu.ru" title="Официальный сайт КубГУ">Главная</a> </li>
-         <li> <a href="https://www.kubsu.ru/ru/education" title="Образование">Образование</a> </li>
-         <li> <a href="https://www.kubsu.ru/ru/abiturient" title="Абитуриентам">Абитуриентам</a> </li>
-        </ul>
-      </li>
-      <li> <a> Ссылка без href </a> </li>
-      <li> <a href=""> Ссылка с пустым href </a> </li>
-      <li> <a href="https://kubsu.ru">  Ссылка, по которой запрещен переход поисковикам </a> </li>
-      <li> <a href="https://kubsu.ru"> <noindex> Ссылка запрещенная для индексации поисковиками </noindex> </a> </li>
-      <li> Куба́нский госуда́рственный университе́т (<a href="https://kubsu.ru" title="Официальный сайт КубГУ"> Кубгу </a>) — высшее учебное заведение в Краснодаре. Является одним из крупнейших и старейших университетов юга России. </li>
-      <li> <a href="https://kubsu.ru"> <img src="img1"> </a> </li>
-       <li> <a href=""> Ссылка с пустым href </a> </li>
-      <li> <a href="about"> Относительная ссылка на страницу в текущем каталоге </a> </li>
-      <li> <a href="/about"> Относительная ссылка на страницу в каталоге about </a> </li>
-      <li> <a href="../about"> Относительная ссылка на страницу в каталоге уровнем выше текущего </a> </li>
-      <li> <a href="../../about"> Относительная ссылка на страницу в каталоге двумя уровнями выше </a> </li>
-      <li> <a href="/"> 20)Cокращенная ссылка на главную </a> </li>
-      <li id=#0001> <a href="/about"> Сокращенная ссылка на внутреннюю страницу </a> </li>
-    </ol>
-
-
-   <form action="/"
-      method="POST">
-
-      <label>
-        Однострочное текстовое поле:<br />
-        <input name="field-name-1"
-          value="начальное значение" />
-      </label><br />
-
-      <label>
-        Текстовое поле email:<br />
-        <input name="field-email"
-          value="test@example.com"
-          type="email" />
-      </label><br />
-
-      <label>
-        Текстовое поле даты:<br />
-        <input name="field-date"
-          value="2019-08-13"
-          type="date" />
-      </label><br />
-
-      <label>
-        Многострочное текстовое поле:<br />
-        <textarea name="field-name-2">начальное значение</textarea>
-      </label><br />
-
-      <label>
-        Список (combobox):<br />
-        <select name="field-name-3">
-          <option value="Значение1">Метка1</option>
-          <option value="Значение2" selected="selected">Метка2</option>
-          <option value="Значение3">Метка3</option>
-        </select>
-      </label><br />
-
-      <label>
-        Список (listbox с множественным выбором):
-        <br />
-        <select name="field-name-4[]"
-          multiple="multiple">
-          <option value="Значение1">Метка1</option>
-          <option value="Значение2" selected="selected">Метка2</option>
-          <option value="Значение3" selected="selected">Метка3</option>
-        </select>
-      </label><br />
-
-      Радиокнопки:<br />
-      <label><input type="radio" checked="checked"
-        name="radio-group-1" value="Значение1" />
-        Подпись радиокнопки 1</label>
-      <label><input type="radio"
-        name="radio-group-1" value="Значение2" />
-        Подпись радиокнопки 2</label><br />
-
-      Чекбокс:<br />
-      <label><input type="checkbox" checked="checked"
-        name="check-1" />
-        Подпись чекбокса ставим справа</label><br />
-
-      Кнопка отправки формы,
-      при нажатии заполненные в форму данные
-      отправятся в формате urlencoded методом
-      POST или GET по адресу URL_отправки_данных:
-      <input type="submit" value="Отправить" />
-    </form>
-
-  </body>
+<html lang="ru"> 
+ <head> 
+ <title>Название страницы</title> 
+ </head> 
+ 
+ <body> 
+ 
+ 
+ <ol>ы 
+ <li> <a href="http://kubsu.ru"> Абсолютная ссылка</a> </li> 
+ <li> <a href="https://kubsu.ru"> Абсолютная ссылка в протоколе https</a> </li> 
+ <li> <a href=""> Ссылка на файл на сервере FTP без авторизации </a> </li> 
+ <li> <a href="ftp://user:password@example.com/myfile.zip"> Ссылка на файл на сервере FTP с авторизацией </a> </li> 
+ <li> <a href="http://example.com#0001"> Ссылка на фрагмент страницы некоторого сайта </a> </li> 
+ <li> <a href="#0001"> Ссылка на фрагмент текущей страницы </a> </li> 
+ <li><a href="http://example.com?par1=xxxx&par2=yyyy"> Cсылку с двумя параметрами в URL </a></li> 
+ <li>Список ссылок основной навигации сайта с подписями title 
+ <ul> 
+ <li> <a href="https://kubsu.ru" title="Официальный сайт КубГУ">Главная</a> </li> 
+ <li> <a href="https://www.kubsu.ru/ru/education" title="Образование">Образование</a> </li> 
+ <li> <a href="https://www.kubsu.ru/ru/abiturient" title="Абитуриентам">Абитуриентам</a> </li> 
+ </ul> 
+ </li> 
+ <li> <a> Ссылка без href </a> </li> 
+ <li> <a href=""> Ссылка с пустым href </a> </li> 
+ <li> <a href="https://kubsu.ru"> Ссылка, по которой запрещен переход поисковикам </a> </li> 
+ <li> <a href="https://kubsu.ru"> <noindex> Ссылка запрещенная для индексации поисковиками </noindex> </a> </li> 
+ <li> Куба́нский госуда́рственный университе́т (<a href="https://kubsu.ru" title="Официальный сайт КубГУ"> Кубгу </a>) — высшее учебное заведение в Краснодаре. Является одним из крупнейших и старейших университетов юга России. </li> 
+ <li> <a href="https://kubsu.ru"> <img src="img1"> </a> </li> 
+ <li> <a href=""> Ссылка с пустым href </a> </li> 
+ <li> <a href="about"> Относительная ссылка на страницу в текущем каталоге </a> </li> 
+ <li> <a href="/about"> Относительная ссылка на страницу в каталоге about </a> </li> 
+ <li> <a href="../about"> Относительная ссылка на страницу в каталоге уровнем выше текущего </a> </li> 
+ <li> <a href="../../about"> Относительная ссылка на страницу в каталоге двумя уровнями выше </a> </li> 
+ <li> <a href="/"> 20)Cокращенная ссылка на главную </a> </li> 
+ <li id=#0001> <a href="/about"> Сокращенная ссылка на внутреннюю страницу </a> </li> 
+ </ol> 
+ 
+ 
+ <form action="/" 
+ method="POST"> 
+ 
+ <label> 
+ Имя:<br /> 
+ <input name="field-name-1"/> 
+ </label><br /> 
+ 
+ <label> 
+ Email:<br /> 
+ <input name="field-email" 
+ type="email" /> 
+ </label><br /> 
+ 
+ <label> 
+ Дата рождения:<br /> 
+ <input name="field-date" 
+ value="ГГГГ-ММ-ЧЧ" 
+ type="date" /> 
+ </label><br /> 
+ 
+ Пол:<br /> 
+ <label><input type="radio" checked="checked" 
+ name="radio-group-1" value="Значение1" /> 
+ М</label> 
+ <label><input type="radio" 
+ name="radio-group-1" value="Значение2" /> 
+ Ж</label><br /> 
+ 
+ 
+ Количество конечностей:<br /> 
+ <label><input type="radio" checked="checked" 
+ name="radio-group-2" value="Значение1" /> 
+ 1</label> 
+ <label><input type="radio" 
+ name="radio-group-2" value="Значение2" /> 
+ 2</label><br /> 
+ <label><input type="radio" 
+ name="radio-group-2" value="Значение3" /> 
+ 3</label><br /> 
+ <label><input type="radio" 
+ name="radio-group-2" value="Значение4" /> 
+ 4</label><br /> 
+ 
+ 
+ 
+ 
+ 
+ <label> 
+ Сверхспособности: 
+ <br /> 
+ <select name="field-name-4[]" 
+ multiple="multiple"> 
+ <option value="Значение1">Бессмертие</option> 
+ <option value="Значение2" selected="selected">Прохождение сквозь стены </option> 
+ <option value="Значение3" selected="selected">Левитация </option> 
+ </select> 
+ </label><br /> 
+ 
+ <label> 
+ Биография:<br /> 
+ <textarea name="field-name-2">начальное значение</textarea> 
+ </label><br /> 
+ 
+ С контрактом ознакомлен (а)<br /> 
+ <label><input type="checkbox" checked="checked" 
+ name="check-1" /> 
+ Подпись чекбокса ставим справа</label><br /> 
+ 
+ <input type="submit" value="Отправить" /> 
+ </form> 
+ 
+ </body> 
 </html>
-
