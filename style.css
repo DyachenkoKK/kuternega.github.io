@@ -1,0 +1,25 @@
+header img{
+	float: left;
+	width: 50px;
+}
+
+header div{
+	vertical-align: central;
+}
+
+
+header div,nav,#content{
+	max-width: 960px;
+	margin: auto;
+}
+
+header{
+	background-color: #ccc;
+}
+
+
+
+
+
+
+
