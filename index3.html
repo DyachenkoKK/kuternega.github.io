@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="ru" >
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style3.css">
+    <title></title>
+</head>
+<body>
+
+  <header>
+      <div>
+        <img src="logo.jpg" alt="Лого название сайта">
+        <h1>Название сайта</h1>
+      </div>
+  </header>
+
+  <nav>
+  	<a href="#list">Список гиперсылок </a>
+  	<a href="#table">Таблица </a>
+  	<a href="#form">Форма </a>
+  </nav>
+  <div id="content">
+    <div id="list">
+  	  <ul>
+  	    <li>
+  	    	<a href="http://example1.com">Example 1 </a>
+    	</li>
+  		<li>
+  			<a href="http://example2.com">Example 2 </a>
+  		</li>
+  		<li>
+  			<a href="http://example3.com">Example 3 </a>
+  		</li>
+  		<li>
+  			<a href="http://example4.com">Example 4 </a>
+  		</li>
+  		<li>
+  			<a href="http://example5.com">Example 5 </a>
+  		</li>
+  		<li>
+  			<a href="http://example6.com">Example 6 </a>
+  		</li>
+  		<li>
+  			<a href="http://example7.com">Example 7 </a>
+  		</li>
+  		<li>
+  			<a href="http://example8.com">Example 8 </a>
+  		</li>
+  	  </ul>
+    </div>
+  
+
+    <div id="table">
+    <table>
+        <tr>
+          <th>Колонка 1</th>
+          <th>Колонка 2</th>
+          <th>Колонка 3</th>
+        </tr>
+        <tr class="nch">
+          <td>Ячейка 11</td>
+          <td>Ячейка 12</td>
+          <td>Ячейка 13</td>
+        </tr>
+        <tr class="ch">
+          <td>Ячейка 21</td>
+          <td colspan="2">Ячейка 22 объединенная с 23</td>
+        </tr>
+        <tr class="nch">
+          <td>Ячейка 31</td>
+          <td>Ячейка 32</td>
+          <td>Ячейка 33</td>
+        </tr>
+        <tr class="ch">
+          <td>Ячейка 41</td>
+          <td>Ячейка 42</td>
+          <td>Ячейка 43</td>
+        </tr>
+        <tr>
+          <td colspan="3" class="nch">Ячейка 51 объединенная с 52 и 53</td>
+        </tr>
+    </table>
+
+
+
+
+
+    </div>
+
+
+    <div id="form">
+      <form action="/"
+        method="POST">
+
+        <label>
+        Имя:<br />
+          <input name="field-name-1"/>
+        </label><br />
+
+        <label>
+          Email:<br />
+          <input name="field-email"
+            type="email" />
+        </label><br />
+
+        <label>
+          Дата рождения:<br />
+          <input name="field-date"
+            value="ГГГГ-ММ-ЧЧ"
+            type="date" />
+        </label><br />
+
+        Пол:<br />
+        <label><input type="radio" checked="checked"
+          name="radio-group-1" value="Значение1" />
+          М</label>
+        <label><input type="radio"
+          name="radio-group-1" value="Значение2" />
+          Ж</label><br />
+
+
+          Количество конечностей:<br />
+        <label><input type="radio" checked="checked"
+          name="radio-group-2" value="Значение1" />
+          1</label>
+        <label><input type="radio"
+          name="radio-group-2" value="Значение2" />
+          2</label><br />
+        <label><input type="radio"
+          name="radio-group-2" value="Значение3" />
+          3</label><br />
+        <label><input type="radio"
+          name="radio-group-2" value="Значение4" />
+          4</label><br />     
+
+        <label>
+          Сверхспособности:
+          <br />
+          <select name="field-name-4[]"
+            multiple="multiple">
+            <option value="Значение1">Бессмертие</option>
+            <option value="Значение2" selected="selected">Прохождение сквозь стены </option>
+            <option value="Значение3" selected="selected">Левитация </option>
+          </select>
+        </label><br />
+
+         <label>
+          Биография:<br />
+          <textarea name="field-name-2">начальное значение</textarea>
+        </label><br />
+
+        С контрактом ознакомлен (а)<br />
+        <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        Подпись чекбокса ставим справа</label><br />
+
+        <input type="submit" value="Отправить" />
+      </form>
+    </div>
+
+  </div>
+
+
+  <footer>
+  	Александр Кутернега 2021
+  </footer>
+
+</body>
+</html>
